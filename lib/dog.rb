@@ -7,7 +7,7 @@ attr_accessor :name
     @name = name 
     @@all = save 
   end 
-  
+  binding .pry 
   def save
     @@all.push(self)
   end 
